@@ -19,10 +19,27 @@
   "logo_width",
   "navbar_setting_section",
   "navbar_background_color",
+  "nav_bar_text_color",
   "whitelabel_app_name",
   "column_break_7",
   "custom_navbar_title",
-  "custom_navbar_title_style"
+  "custom_navbar_title_style",
+  "form_tab",
+  "form_colors_section",
+  "form_bg",
+  "left_pane_bg",
+  "left_pane_text_color",
+  "column_break_0hki9",
+  "main_bg",
+  "field_bg",
+  "hide_left_pane",
+  "label_text_style_section",
+  "label_colour",
+  "label_weight",
+  "column_break_dhnnm",
+  "table_header_bg",
+  "grid_text_color",
+  "grid_text_weight"
  ],
  "fields": [
   {
@@ -118,11 +135,96 @@
    "fieldtype": "Check",
    "hidden": 1,
    "label": "App Logo Set"
+  },
+  {
+   "fieldname": "form_tab",
+   "fieldtype": "Tab Break",
+   "label": "Form "
+  },
+  {
+   "fieldname": "form_colors_section",
+   "fieldtype": "Section Break",
+   "label": "Form Colors"
+  },
+  {
+   "fieldname": "form_bg",
+   "fieldtype": "Data",
+   "label": "Form BG"
+  },
+  {
+   "fieldname": "field_bg",
+   "fieldtype": "Data",
+   "label": "Field BG"
+  },
+  {
+   "fieldname": "left_pane_bg",
+   "fieldtype": "Data",
+   "label": "Left Pane BG"
+  },
+  {
+   "fieldname": "column_break_0hki9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_bg",
+   "fieldtype": "Data",
+   "label": "Main BG"
+  },
+  {
+   "description": "Apply for List View and Child Table",
+   "fieldname": "table_header_bg",
+   "fieldtype": "Data",
+   "label": "Table Header BG"
+  },
+  {
+   "default": "0",
+   "fieldname": "hide_left_pane",
+   "fieldtype": "Check",
+   "label": "Hide Left Pane"
+  },
+  {
+   "fieldname": "label_text_style_section",
+   "fieldtype": "Section Break",
+   "label": "Label Text Style"
+  },
+  {
+   "fieldname": "label_colour",
+   "fieldtype": "Data",
+   "label": "Label Colour"
+  },
+  {
+   "fieldname": "label_weight",
+   "fieldtype": "Data",
+   "label": "Label  Weight"
+  },
+  {
+   "fieldname": "nav_bar_text_color",
+   "fieldtype": "Data",
+   "label": "Nav Bar Text Color"
+  },
+  {
+   "fieldname": "left_pane_text_color",
+   "fieldtype": "Data",
+   "label": "Left Pane Text Color"
+  },
+  {
+   "fieldname": "column_break_dhnnm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grid_text_color",
+   "fieldtype": "Data",
+   "label": "Grid Text Color"
+  },
+  {
+   "fieldname": "grid_text_weight",
+   "fieldtype": "Data",
+   "label": "Grid Text Weight"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2022-04-20 11:27:44.618584",
+ "modified": "2023-05-30 10:53:51.012970",
  "modified_by": "Administrator",
  "module": "Whitelabel",
  "name": "Whitelabel Setting",
@@ -142,5 +244,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
